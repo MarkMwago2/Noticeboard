@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/better"
+        android:text="Welcome to the NOTICEBOARD"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Announcement"
+        android:id="@+id/AnnButton"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="150dp"/>
+
+    <EditText
+        android:id="@+id/AnnEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Enter phone number"
+        android:padding="10dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/colorDivider"
+        android:textSize="20sp"
+        android:layout_marginRight="10dp"/>
+
+</RelativeLayout>
